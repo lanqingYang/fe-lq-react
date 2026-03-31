@@ -36,6 +36,7 @@ function App() {
         }}>
         <Link to={RoutePath.BASE_TSX}>首页</Link>
         <Link to={RoutePath.USE_STATE_REVIEW}>useState回顾</Link>
+        <Link to={RoutePath.USE_EFFECT_REVIEW}>useEffect回顾</Link>
       </nav>
 
       {/* 路由内容渲染 */}

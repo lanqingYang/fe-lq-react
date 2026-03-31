@@ -15,5 +15,10 @@ export const routes: RouteObject[] = [
     {
         path: RoutePath.USE_STATE_REVIEW,
         element: lazyLoad(() => import("../pages/useStateReview/index.tsx")),
+    },
+    /* useEffect回顾 */
+    {
+        path: RoutePath.USE_EFFECT_REVIEW,
+        element: lazyLoad(() => import("../pages/useEffectReview/index.tsx")),
     }
 ]
