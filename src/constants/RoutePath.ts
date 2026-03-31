@@ -4,5 +4,6 @@ export const RoutePath = {
     USE_EFFECT_REVIEW: "/use-effect-review",
     ASYNC_REQUEST_REVIEW: "/async-request-review",
     USE_REF_REVIEW: "/use-ref-review",
+    USE_MEMO_USE_CALLBACK_REVIEW: '/useMemo-useCallback-review',
 
 }

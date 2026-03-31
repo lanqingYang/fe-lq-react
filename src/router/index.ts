@@ -30,5 +30,16 @@ export const routes: RouteObject[] = [
     {
         path: RoutePath.USE_REF_REVIEW,
         element: lazyLoad(() => import("../pages/useRefReview/index.tsx")),
+    },
+    /* useRef回顾 */
+    {
+        path: RoutePath.USE_REF_REVIEW,
+        element: lazyLoad(() => import("../pages/useRefReview/index.tsx")),
+    },
+    /* useMemo & useCallback回顾 */
+    {
+        path: RoutePath.USE_MEMO_USE_CALLBACK_REVIEW,
+        element: lazyLoad(() => import("../pages/useMemo-useCallBackReView/index.tsx")),
     }
+
 ]

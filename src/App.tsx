@@ -39,6 +39,9 @@ function App() {
         <Link to={RoutePath.USE_EFFECT_REVIEW}>useEffect回顾</Link>
         <Link to={RoutePath.ASYNC_REQUEST_REVIEW}>useEffect & 异步请求</Link>
         <Link to={RoutePath.USE_REF_REVIEW}>useRef回顾</Link>
+        <Link to={RoutePath.USE_MEMO_USE_CALLBACK_REVIEW}>
+          useMemo & useCallback回顾
+        </Link>
       </nav>
 
       {/* 路由内容渲染 */}
