@@ -21,8 +21,14 @@ export const routes: RouteObject[] = [
         path: RoutePath.USE_EFFECT_REVIEW,
         element: lazyLoad(() => import("../pages/useEffectReview/index.tsx")),
     },
+    /* useEffect & 异步请求 */
     {
         path: RoutePath.ASYNC_REQUEST_REVIEW,
         element: lazyLoad(() => import("../pages/useEffectReview/asyncRequest.tsx")),
+    },
+    /* useRef回顾 */
+    {
+        path: RoutePath.USE_REF_REVIEW,
+        element: lazyLoad(() => import("../pages/useRefReview/index.tsx")),
     }
 ]

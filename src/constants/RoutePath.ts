@@ -3,5 +3,6 @@ export const RoutePath = {
     USE_STATE_REVIEW: "/use-state-review",
     USE_EFFECT_REVIEW: "/use-effect-review",
     ASYNC_REQUEST_REVIEW: "/async-request-review",
+    USE_REF_REVIEW: "/use-ref-review",
 
 }
