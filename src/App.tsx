@@ -44,6 +44,7 @@ function App() {
           useMemo & useCallback回顾
         </Link>
         <Link to={RoutePath.VALUE_PASSING_REVIEW}>传值方式回顾</Link>
+        <Link to={RoutePath.CONTROLLED_COMPONENTS}>受控组件</Link>
       </nav>
 
       {/* 路由内容渲染 */}

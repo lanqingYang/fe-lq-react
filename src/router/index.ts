@@ -45,6 +45,11 @@ export const routes: RouteObject[] = [
     {
         path: RoutePath.VALUE_PASSING_REVIEW,
         element: lazyLoad(() => import("../pages/valuePassing/index.tsx")),
+    },
+    /* 受控组件 */
+    {
+        path: RoutePath.CONTROLLED_COMPONENTS,
+        element: lazyLoad(() => import("../pages/controlledComponents/index.tsx")),
     }
 
 ]

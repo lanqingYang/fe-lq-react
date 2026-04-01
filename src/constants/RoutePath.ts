@@ -6,5 +6,6 @@ export const RoutePath = {
     USE_REF_REVIEW: "/use-ref-review",
     USE_MEMO_USE_CALLBACK_REVIEW: '/useMemo-useCallback-review',
     VALUE_PASSING_REVIEW: '/value-passing-review',
+    CONTROLLED_COMPONENTS: '/controlled-components',
 
 }
