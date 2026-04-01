@@ -40,6 +40,11 @@ export const routes: RouteObject[] = [
     {
         path: RoutePath.USE_MEMO_USE_CALLBACK_REVIEW,
         element: lazyLoad(() => import("../pages/useMemo-useCallBackReView/index.tsx")),
+    },
+    /* 传值方式回顾 */
+    {
+        path: RoutePath.VALUE_PASSING_REVIEW,
+        element: lazyLoad(() => import("../pages/valuePassing/index.tsx")),
     }
 
 ]

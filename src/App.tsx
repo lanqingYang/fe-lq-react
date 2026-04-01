@@ -5,11 +5,12 @@ import "./App.css";
 import { RoutePath } from "./constants/RoutePath";
 import { Link, useRoutes } from "react-router-dom";
 import { routes } from "./router";
+import AppProvider from "./contexts/AppProvider";
 
 function App() {
   const elements = useRoutes(routes);
   return (
-    <>
+    <AppProvider>
       <section id='center'>
         <div className='hero'>
           <img src={heroImg} className='base' width='170' height='179' alt='' />
@@ -42,6 +43,7 @@ function App() {
         <Link to={RoutePath.USE_MEMO_USE_CALLBACK_REVIEW}>
           useMemo & useCallback回顾
         </Link>
+        <Link to={RoutePath.VALUE_PASSING_REVIEW}>传值方式回顾</Link>
       </nav>
 
       {/* 路由内容渲染 */}
@@ -53,7 +55,7 @@ function App() {
       </Routes> */}
       {/* 2. useRoutes 企业级写法 */}
       <div className='element-render'>{elements}</div>
-    </>
+    </AppProvider>
   );
 }
 

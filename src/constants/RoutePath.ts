@@ -5,5 +5,6 @@ export const RoutePath = {
     ASYNC_REQUEST_REVIEW: "/async-request-review",
     USE_REF_REVIEW: "/use-ref-review",
     USE_MEMO_USE_CALLBACK_REVIEW: '/useMemo-useCallback-review',
+    VALUE_PASSING_REVIEW: '/value-passing-review',
 
 }
